@@ -1,0 +1,24 @@
+#=======================================================================
+# Makefrag for rv32ui tests
+#-----------------------------------------------------------------------
+
+rv32ui_FullTest_sc_tests = \
+	simple \
+	add addi \
+	and andi \
+	auipc \
+	beq bge bgeu blt bltu bne \
+	jal jalr \
+	lb lbu lh lhu lw \
+	lui \
+	or ori \
+	sb sh sw \
+	sll slli \
+	slt slti sltiu sltu \
+	sra srai \
+	srl srli \
+	sub \
+	xor xori \
+	mergesort \
+
+rv32ui_FullTest__tests = $(addprefix rv32ui_FullTest-, $(rv32ui_FullTest_sc_tests))

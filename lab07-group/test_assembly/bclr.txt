@@ -1,0 +1,12 @@
+## Test bclr rd, rs1, rs2
+## returns rs1 with a single bit cleared at the index specified in rs2. 
+## The index is read from the lower log2(XLEN) = 5 bits of rs2
+
+main:
+
+addi x28, x0, -5
+addi x29, x0, -7
+bclr x30, x28, x29
+## -5 = 0xffff_fffb, -7 = 0xffff_fff9 -> take lower 5 bits -> 0x19 = 25
+## clearing the 25th bit makes x30 become 0xfdff_fffb
+hcf

@@ -1,0 +1,11 @@
+## Test rori rd, rs1, shamt
+## rotate right of rs1 by the amount in the least-significant log2(XLEN) bits of shamt
+
+main:
+
+addi x29, x0, 365
+rori x30, x29, 7
+## 365 = 0x0000_016d shift right by 7 bits
+## 0x16d = 0001_0110_1101
+## so x30 should be 1101_1010_0000_0000_0000_0000_0000_0010 = 0xda00_0002
+hcf

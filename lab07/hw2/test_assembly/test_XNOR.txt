@@ -1,0 +1,1407 @@
+## RV32 Emulator Testing Assembly Code for XNOR function
+
+main:
+
+lui x28, 228178
+addi x28, x28, 1746
+lui x29, 507442
+addi x29, x29, 2533
+lui x30, 735900
+addi x30, x30, 200
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 303822
+addi x28, x28, 2780
+lui x29, 47875
+addi x29, x29, 3911
+lui x30, 779825
+addi x30, x30, 2660
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 200153
+addi x28, x28, 1296
+lui x29, 355652
+addi x29, x29, 2200
+lui x30, 630629
+addi x30, x30, 631
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 485682
+addi x28, x28, 2948
+lui x29, 442752
+addi x29, x29, 3286
+lui x30, 939954
+addi x30, x30, 2221
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 326219
+addi x28, x28, 1441
+lui x29, 202905
+addi x29, x29, 571
+lui x30, 531758
+addi x30, x30, 2149
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 358525
+addi x28, x28, 1316
+lui x29, 102985
+addi x29, x29, 2897
+lui x30, 726474
+addi x30, x30, 394
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 78581
+addi x28, x28, 1567
+lui x29, 422745
+addi x29, x29, 3613
+lui x30, 573010
+addi x30, x30, 2045
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 356605
+addi x28, x28, 107
+lui x29, 120941
+addi x29, x29, 1525
+lui x30, 743280
+addi x30, x30, 2657
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 430508
+addi x28, x28, 3930
+lui x29, 468092
+addi x29, x29, 1149
+lui x30, 936488
+addi x30, x30, 1240
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 140553
+addi x28, x28, 272
+lui x29, 47379
+addi x29, x29, 3800
+lui x30, 877540
+addi x30, x30, 55
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 112616
+addi x28, x28, 2839
+lui x29, 1694
+addi x29, x29, 4092
+lui x30, 937606
+addi x30, x30, 2836
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 62589
+addi x28, x28, 3493
+lui x29, 76617
+addi x29, x29, 61
+lui x30, 925898
+addi x30, x30, 615
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 473638
+addi x28, x28, 1676
+lui x29, 83957
+addi x29, x29, 2852
+lui x30, 623149
+addi x30, x30, 599
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 344731
+addi x28, x28, 3055
+lui x29, 339450
+addi x29, x29, 508
+lui x30, 1020063
+addi x30, x30, 1516
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 224239
+addi x28, x28, 218
+lui x29, 516005
+addi x29, x29, 462
+lui x30, 740278
+addi x30, x30, 3819
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 94422
+addi x28, x28, 1358
+lui x29, 452417
+addi x29, x29, 1964
+lui x30, 551017
+addi x30, x30, 3357
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 499159
+addi x28, x28, 2995
+lui x29, 398244
+addi x29, x29, 42
+lui x30, 946573
+addi x30, x30, 1126
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 500292
+addi x28, x28, 1779
+lui x29, 175024
+addi x29, x29, 196
+lui x30, 718348
+addi x30, x30, 2504
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 229608
+addi x28, x28, 2243
+lui x29, 461686
+addi x29, x29, 631
+lui x30, 750702
+addi x30, x30, 1355
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 93488
+addi x28, x28, 3482
+lui x29, 31539
+addi x29, x29, 3684
+lui x30, 977379
+addi x30, x30, 3073
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 140303
+addi x28, x28, 1202
+lui x29, 452013
+addi x29, x29, 702
+lui x30, 736862
+addi x30, x30, 2547
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 134524
+addi x28, x28, 2485
+lui x29, 218885
+addi x29, x29, 2769
+lui x30, 959873
+addi x30, x30, 3227
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 350470
+addi x28, x28, 219
+lui x29, 491129
+addi x29, x29, 2592
+lui x30, 907393
+addi x30, x30, 1284
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 339826
+addi x28, x28, 198
+lui x29, 256690
+addi x29, x29, 53
+lui x30, 604736
+addi x30, x30, 3852
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 434933
+addi x28, x28, 3741
+lui x29, 480379
+addi x29, x29, 470
+lui x30, 919920
+addi x30, x30, 180
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 304069
+addi x28, x28, 3854
+lui x29, 23261
+addi x29, x29, 2484
+lui x30, 722664
+addi x30, x30, 2373
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 482073
+addi x28, x28, 467
+lui x29, 366658
+addi x29, x29, 3251
+lui x30, 867495
+addi x30, x30, 671
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 99878
+addi x28, x28, 2546
+lui x29, 431424
+addi x29, x29, 2143
+lui x30, 584934
+addi x30, x30, 3666
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 450614
+addi x28, x28, 2007
+lui x29, 444608
+addi x29, x29, 1505
+lui x30, 1038090
+addi x30, x30, 3529
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 246586
+addi x28, x28, 2651
+lui x29, 150566
+addi x29, x29, 2225
+lui x30, 946404
+addi x30, x30, 3349
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 436325
+addi x28, x28, 1968
+lui x29, 341008
+addi x29, x29, 4009
+lui x30, 811925
+addi x30, x30, 2022
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 78695
+addi x28, x28, 93
+lui x29, 411196
+addi x29, x29, 867
+lui x30, 559781
+addi x30, x30, 3265
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 214964
+addi x28, x28, 4051
+lui x29, 54699
+addi x29, x29, 1873
+lui x30, 814567
+addi x30, x30, 1917
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 61932
+addi x28, x28, 1063
+lui x29, 444572
+addi x29, x29, 2198
+lui x30, 640648
+addi x30, x30, 846
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 516386
+addi x28, x28, 2504
+lui x29, 155420
+addi x29, x29, 449
+lui x30, 672194
+addi x30, x30, 2038
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 476110
+addi x28, x28, 1786
+lui x29, 132401
+addi x29, x29, 3707
+lui x30, 702721
+addi x30, x30, 1918
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 83145
+addi x28, x28, 1152
+lui x29, 86346
+addi x29, x29, 175
+lui x30, 1043069
+addi x30, x30, 3024
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 351286
+addi x28, x28, 2380
+lui x29, 433615
+addi x29, x29, 1371
+lui x30, 802309
+addi x30, x30, 1000
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 53187
+addi x28, x28, 2767
+lui x29, 166824
+addi x29, x29, 2579
+lui x30, 899995
+addi x30, x30, 3875
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 166017
+addi x28, x28, 1425
+lui x29, 488120
+addi x29, x29, 2412
+lui x30, 656841
+addi x30, x30, 770
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 122915
+addi x28, x28, 3049
+lui x29, 470086
+addi x29, x29, 1183
+lui x30, 603035
+addi x30, x30, 137
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 511380
+addi x28, x28, 801
+lui x29, 80700
+addi x29, x29, 3516
+lui x30, 592208
+addi x30, x30, 354
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 312456
+addi x28, x28, 338
+lui x29, 86970
+addi x29, x29, 3347
+lui x30, 682190
+addi x30, x30, 958
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 512123
+addi x28, x28, 1563
+lui x29, 238783
+addi x29, x29, 2346
+lui x30, 756538
+addi x30, x30, 206
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 7290
+addi x28, x28, 756
+lui x29, 234421
+addi x29, x29, 118
+lui x30, 815153
+addi x30, x30, 3453
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 389348
+addi x28, x28, 475
+lui x29, 443616
+addi x29, x29, 2724
+lui x30, 838596
+addi x30, x30, 1152
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 51141
+addi x28, x28, 31
+lui x29, 468043
+addi x29, x29, 569
+lui x30, 531570
+addi x30, x30, 3545
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 330524
+addi x28, x28, 3592
+lui x29, 266105
+addi x29, x29, 4083
+lui x30, 981917
+addi x30, x30, 3588
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 522743
+addi x28, x28, 2442
+lui x29, 392456
+addi x29, x29, 559
+lui x30, 916225
+addi x30, x30, 1114
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 186389
+addi x28, x28, 2185
+lui x29, 514840
+addi x29, x29, 850
+lui x30, 720115
+addi x30, x30, 1060
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 23588
+addi x28, x28, 1009
+lui x29, 138211
+addi x29, x29, 3972
+lui x30, 899129
+addi x30, x30, 906
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 122953
+addi x28, x28, 461
+lui x29, 106734
+addi x29, x29, 2161
+lui x30, 1032027
+addi x30, x30, 1603
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 224557
+addi x28, x28, 51
+lui x29, 474239
+addi x29, x29, 2842
+lui x30, 765612
+addi x30, x30, 1238
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 16061
+addi x28, x28, 3532
+lui x29, 277744
+addi x29, x29, 2819
+lui x30, 785837
+addi x30, x30, 2352
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 116774
+addi x28, x28, 1325
+lui x29, 182078
+addi x29, x29, 861
+lui x30, 848104
+addi x30, x30, 2447
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 241575
+addi x28, x28, 1135
+lui x29, 239689
+addi x29, x29, 278
+lui x30, 1046546
+addi x30, x30, 2694
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 127876
+addi x28, x28, 2044
+lui x29, 228667
+addi x29, x29, 1936
+lui x30, 880961
+addi x30, x30, 3987
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 320389
+addi x28, x28, 3795
+lui x29, 440333
+addi x29, x29, 2383
+lui x30, 894072
+addi x30, x30, 2147
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 315637
+addi x28, x28, 1187
+lui x29, 308224
+addi x29, x29, 1262
+lui x30, 1022731
+addi x30, x30, 4018
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 154827
+addi x28, x28, 633
+lui x29, 322927
+addi x29, x29, 1944
+lui x30, 609884
+addi x30, x30, 2590
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 18357
+addi x28, x28, 1381
+lui x29, 19887
+addi x29, x29, 1108
+lui x30, 1045990
+addi x30, x30, 3790
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 242255
+addi x28, x28, 572
+lui x29, 69498
+addi x29, x29, 1412
+lui x30, 869067
+addi x30, x30, 2119
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 487930
+addi x28, x28, 1677
+lui x29, 48491
+addi x29, x29, 68
+lui x30, 537455
+addi x30, x30, 2358
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 335603
+addi x28, x28, 1399
+lui x29, 486385
+addi x29, x29, 23
+lui x30, 887550
+addi x30, x30, 2719
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 440947
+addi x28, x28, 628
+lui x29, 521992
+addi x29, x29, 3585
+lui x30, 963211
+addi x30, x30, 906
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 476937
+addi x28, x28, 874
+lui x29, 464535
+addi x29, x29, 1637
+lui x30, 1027682
+addi x30, x30, 2800
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 135915
+addi x28, x28, 3461
+lui x29, 75602
+addi x29, x29, 1335
+lui x30, 838215
+addi x30, x30, 1869
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 46981
+addi x28, x28, 3798
+lui x29, 360472
+addi x29, x29, 3512
+lui x30, 706669
+addi x30, x30, 3217
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 25553
+addi x28, x28, 81
+lui x29, 63042
+addi x29, x29, 3234
+lui x30, 1010287
+addi x30, x30, 780
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 113928
+addi x28, x28, 2235
+lui x29, 142327
+addi x29, x29, 1406
+lui x30, 813327
+addi x30, x30, 570
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 245120
+addi x28, x28, 0
+lui x29, 355503
+addi x29, x29, 3371
+lui x30, 601809
+addi x30, x30, 724
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 382016
+addi x28, x28, 1685
+lui x29, 372996
+addi x29, x29, 2044
+lui x30, 1022652
+addi x30, x30, 3734
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 59882
+addi x28, x28, 1211
+lui x29, 178117
+addi x29, x29, 1384
+lui x30, 893393
+addi x30, x30, 3628
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 289041
+addi x28, x28, 331
+lui x29, 375520
+addi x29, x29, 2399
+lui x30, 928817
+addi x30, x30, 2027
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 486342
+addi x28, x28, 2646
+lui x29, 443868
+addi x29, x29, 964
+lui x30, 938470
+addi x30, x30, 1645
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 174159
+addi x28, x28, 247
+lui x29, 504699
+addi x29, x29, 4027
+lui x30, 713930
+addi x30, x30, 179
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 463756
+addi x28, x28, 2073
+lui x29, 416414
+addi x29, x29, 819
+lui x30, 964330
+addi x30, x30, 1237
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 49909
+addi x28, x28, 1344
+lui x29, 427398
+addi x29, x29, 3750
+lui x30, 637071
+addi x30, x30, 1049
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 464905
+addi x28, x28, 888
+lui x29, 385513
+addi x29, x29, 2743
+lui x30, 853534
+addi x30, x30, 1584
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 389495
+addi x28, x28, 3774
+lui x29, 381564
+addi x29, x29, 1516
+lui x30, 1039605
+addi x30, x30, 1197
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 383217
+addi x28, x28, 2232
+lui x29, 342144
+addi x29, x29, 552
+lui x30, 991119
+addi x30, x30, 1391
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 321812
+addi x28, x28, 3153
+lui x29, 519131
+addi x29, x29, 1597
+lui x30, 851255
+addi x30, x30, 1427
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 417746
+addi x28, x28, 1887
+lui x29, 368793
+addi x29, x29, 2855
+lui x30, 786613
+addi x30, x30, 903
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 355315
+addi x28, x28, 1014
+lui x29, 443299
+addi x29, x29, 1969
+lui x30, 808880
+addi x30, x30, 3000
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 431834
+addi x28, x28, 1993
+lui x29, 469243
+addi x29, x29, 3249
+lui x30, 934367
+addi x30, x30, 1159
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 61339
+addi x28, x28, 3375
+lui x29, 152666
+addi x29, x29, 1993
+lui x30, 869439
+addi x30, x30, 1305
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 300458
+addi x28, x28, 2524
+lui x29, 443355
+addi x29, x29, 964
+lui x30, 895373
+addi x30, x30, 1511
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 1375
+addi x28, x28, 4038
+lui x29, 360340
+addi x29, x29, 3736
+lui x30, 689459
+addi x30, x30, 3745
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 97185
+addi x28, x28, 2348
+lui x29, 290416
+addi x29, x29, 273
+lui x30, 715311
+addi x30, x30, 1986
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 211571
+addi x28, x28, 2039
+lui x29, 59238
+addi x29, x29, 899
+lui x30, 795371
+addi x30, x30, 2955
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 209996
+addi x28, x28, 1238
+lui x29, 385731
+addi x29, x29, 2286
+lui x30, 600433
+addi x30, x30, 967
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 39649
+addi x28, x28, 830
+lui x29, 149464
+addi x29, x29, 3311
+lui x30, 860873
+addi x30, x30, 46
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 277857
+addi x28, x28, 3105
+lui x29, 89559
+addi x29, x29, 2174
+lui x30, 696138
+addi x30, x30, 2976
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 52574
+addi x28, x28, 2965
+lui x29, 218474
+addi x29, x29, 3993
+lui x30, 813004
+addi x30, x30, 3059
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 475071
+addi x28, x28, 822
+lui x29, 442069
+addi x29, x29, 2643
+lui x30, 949908
+addi x30, x30, 1690
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 75750
+addi x28, x28, 1413
+lui x29, 334000
+addi x29, x29, 3054
+lui x30, 770230
+addi x30, x30, 404
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 259925
+addi x28, x28, 3195
+lui x29, 397562
+addi x29, x29, 470
+lui x30, 661585
+addi x30, x30, 594
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 328843
+addi x28, x28, 556
+lui x29, 153383
+addi x29, x29, 987
+lui x30, 568404
+addi x30, x30, 3592
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 242067
+addi x28, x28, 3325
+lui x29, 159870
+addi x29, x29, 1570
+lui x30, 933395
+addi x30, x30, 1312
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 72395
+addi x28, x28, 2956
+lui x29, 149613
+addi x29, x29, 1223
+lui x30, 830808
+addi x30, x30, 180
+
+xnor x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+
+QUIT:
+hcf

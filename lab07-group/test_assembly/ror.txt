@@ -1,0 +1,12 @@
+## Test ror rd, rs1, rs2
+## rotate right of rs1 by the amount in least-significant log2(XLEN) = 5 bits of rs2.
+
+main:
+
+addi x28, x0, 365
+addi x29, x0, 7
+ror  x30, x28, x29
+## 365 = 0x0000_016d shift right by 7 bits
+## 0x16d = 0001_0110_1101
+## so x30 should be 1101_1010_0000_0000_0000_0000_0000_0010 = 0xda00_0002
+hcf

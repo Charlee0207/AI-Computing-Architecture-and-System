@@ -1,0 +1,21 @@
+##請將除了測試的指令外其他的程式碼註解掉
+## RV32 Emulator Testing Assembly Code for BEXT function
+
+main:
+addi x28,x0,0xff
+addi x29,x0,6
+bext  x30,x28,x29
+hcf
+
+# x30 = 1
+
+#----------------------------------------------------------------------
+## RV32 Emulator Testing Assembly Code for BEXTI function
+
+main:
+addi x28,x0 ,0xfff
+bexti  x30,x28,12
+hcf
+
+# x28 = 0xffff ffff
+# x30 = 1

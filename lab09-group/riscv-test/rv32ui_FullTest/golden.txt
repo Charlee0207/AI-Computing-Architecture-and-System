@@ -1,0 +1,7 @@
+In single instruction testing program:
+
+If the register "a0" is equal to zero, there means no error in testing.
+a0 = 0x00000000 -> PASS
+
+if "a0" is not equal to zero, the value of "a0" is the test number that occurs error.
+a0 = 0x00000008 -> The result of 8th test in test program is wrong

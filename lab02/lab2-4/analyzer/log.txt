@@ -1,0 +1,38 @@
+load the torchscript model, ../../traced_resnet18.pt, successfully 
+module __torch__.torch.nn.modules.conv.Conv2d {
+  parameters {
+    weight = ...
+  }
+  attributes {
+    weight = ...
+    training = True
+    _is_full_backward_hook = None
+  }
+  methods {
+    method forward {
+      graph(%self.1 : __torch__.torch.nn.modules.conv.Conv2d,
+            %x.1 : Tensor):
+        %18 : bool = prim::Constant[value=1]() # /home/chngh/miniconda3/envs/AIAS/lib/python3.12/site-packages/torch/nn/modules/conv.py:549:0
+        %13 : bool = prim::Constant[value=0]() # /home/chngh/miniconda3/envs/AIAS/lib/python3.12/site-packages/torch/nn/modules/conv.py:549:0
+        %6 : NoneType = prim::Constant() # :0:0
+        %7 : int = prim::Constant[value=2]() # /home/chngh/miniconda3/envs/AIAS/lib/python3.12/site-packages/torch/nn/modules/conv.py:549:0
+        %9 : int = prim::Constant[value=3]() # /home/chngh/miniconda3/envs/AIAS/lib/python3.12/site-packages/torch/nn/modules/conv.py:549:0
+        %11 : int = prim::Constant[value=1]() # /home/chngh/miniconda3/envs/AIAS/lib/python3.12/site-packages/torch/nn/modules/conv.py:549:0
+        %14 : int = prim::Constant[value=0]() # /home/chngh/miniconda3/envs/AIAS/lib/python3.12/site-packages/torch/nn/modules/conv.py:549:0
+        %weight.1 : Tensor = prim::GetAttr[name="weight"](%self.1)
+        %8 : int[] = prim::ListConstruct(%7, %7)
+        %10 : int[] = prim::ListConstruct(%9, %9)
+        %12 : int[] = prim::ListConstruct(%11, %11)
+        %15 : int[] = prim::ListConstruct(%14, %14)
+        %input.1 : Tensor = aten::_convolution(%x.1, %weight.1, %6, %8, %10, %12, %13, %15, %11, %13, %13, %18, %18) # /home/chngh/miniconda3/envs/AIAS/lib/python3.12/site-packages/torch/nn/modules/conv.py:549:0
+        return (%input.1)
+  
+    }
+  }
+  submodules {
+  }
+}
+
+schema:
+aten::_convolution(Tensor input, Tensor weight, Tensor? bias, SymInt[] stride, SymInt[] padding, SymInt[] dilation, bool transposed, SymInt[] output_padding, SymInt groups, bool benchmark, bool deterministic, bool cudnn_enabled, bool allow_tf32) -> Tensor
+output tensor:[1, 64, 112, 112]

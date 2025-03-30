@@ -1,0 +1,24 @@
+## Benchmark for your lab4 bonus
+## Total Loop = t0 * t2
+## t0 for inner loop
+## t2 for outer loop
+
+main:
+li t0,0x7FFFFFFF
+li t1,0
+li t2,3
+li t3,0
+
+loop:
+bge t1,t0,restart
+addi t1,t1,1
+j loop
+
+restart:
+bge t3,t2,end
+addi t3,t3,1
+li t1,0
+j loop
+
+end:
+hcf

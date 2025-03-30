@@ -1,0 +1,9 @@
+## RV32 Emulator Testing Assembly Code
+
+main:
+addi x28,x0 ,2
+addi x29,x0 ,3
+mul  x30,x28,x29
+orn  x1,x29,x30
+# x1 會變成 0xfffffffb
+hcf

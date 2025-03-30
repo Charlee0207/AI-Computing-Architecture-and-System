@@ -1,0 +1,37 @@
+## RV32 Emulator Testing Assembly Code for MUL function
+
+## 0x00000001
+addi t0, x0, 0
+
+## 0xFFFFFFFF
+addi t1, x0, -1
+
+## 0x80000000 (-2147483648) 
+addi t2, x0, 1  
+slli t2, t2, 31 
+
+## 0x7FFFFFFF (2147483647)     
+addi t3, x0, -1      
+srli t3, t3, 1   
+
+mul t4, t0, t0
+mul t4, t0, t1
+mul t4, t0, t2
+mul t4, t0, t3
+
+mul t4, t1, t0
+mul t4, t1, t1
+mul t4, t1, t2
+mul t4, t1, t3
+
+mul t4, t2, t0
+mul t4, t2, t1
+mul t4, t2, t2
+mul t4, t2, t3
+
+mul t4, t3, t0
+mul t4, t3, t1
+mul t4, t3, t2
+mul t4, t3, t3
+
+hcf

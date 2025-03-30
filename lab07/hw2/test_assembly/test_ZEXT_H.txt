@@ -1,0 +1,1207 @@
+## RV32 Emulator Testing Assembly Code for ZEXT_H function
+
+main:
+
+lui x28, 104825
+addi x28, x28, 723
+lui x30, 9
+addi x30, x30, 723
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 133734
+addi x28, x28, 2235
+lui x30, 6
+addi x30, x30, 2235
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 302280
+addi x28, x28, 3216
+lui x30, 8
+addi x30, x30, 3216
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 405283
+addi x28, x28, 3248
+lui x30, 3
+addi x30, x30, 3248
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 52801
+addi x28, x28, 3200
+lui x30, 1
+addi x30, x30, 3200
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 303655
+addi x28, x28, 3158
+lui x30, 7
+addi x30, x30, 3158
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 241335
+addi x28, x28, 2888
+lui x30, 7
+addi x30, x30, 2888
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 149985
+addi x28, x28, 1452
+lui x30, 1
+addi x30, x30, 1452
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 69783
+addi x28, x28, 3432
+lui x30, 7
+addi x30, x30, 3432
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 452906
+addi x28, x28, 831
+lui x30, 10
+addi x30, x30, 831
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 209224
+addi x28, x28, 2351
+lui x30, 8
+addi x30, x30, 2351
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 279779
+addi x28, x28, 574
+lui x30, 3
+addi x30, x30, 574
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 314349
+addi x28, x28, 3117
+lui x30, 13
+addi x30, x30, 3117
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 248873
+addi x28, x28, 3182
+lui x30, 9
+addi x30, x30, 3182
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 429243
+addi x28, x28, 3885
+lui x30, 11
+addi x30, x30, 3885
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 67918
+addi x28, x28, 2126
+lui x30, 14
+addi x30, x30, 2126
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 338431
+addi x28, x28, 1260
+lui x30, 15
+addi x30, x30, 1260
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 481817
+addi x28, x28, 2754
+lui x30, 9
+addi x30, x30, 2754
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 286391
+addi x28, x28, 2024
+lui x30, 7
+addi x30, x30, 2024
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 289215
+addi x28, x28, 2082
+lui x30, 15
+addi x30, x30, 2082
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 399597
+addi x28, x28, 1302
+lui x30, 13
+addi x30, x30, 1302
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 362142
+addi x28, x28, 3437
+lui x30, 14
+addi x30, x30, 3437
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 98926
+addi x28, x28, 1041
+lui x30, 14
+addi x30, x30, 1041
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 135234
+addi x28, x28, 401
+lui x30, 2
+addi x30, x30, 401
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 235416
+addi x28, x28, 3908
+lui x30, 8
+addi x30, x30, 3908
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 427769
+addi x28, x28, 1597
+lui x30, 9
+addi x30, x30, 1597
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 288617
+addi x28, x28, 1388
+lui x30, 9
+addi x30, x30, 1388
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 477483
+addi x28, x28, 3137
+lui x30, 11
+addi x30, x30, 3137
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 63352
+addi x28, x28, 3167
+lui x30, 8
+addi x30, x30, 3167
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 361012
+addi x28, x28, 248
+lui x30, 4
+addi x30, x30, 248
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 102808
+addi x28, x28, 264
+lui x30, 8
+addi x30, x30, 264
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 168177
+addi x28, x28, 3890
+lui x30, 1
+addi x30, x30, 3890
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 494746
+addi x28, x28, 2484
+lui x30, 10
+addi x30, x30, 2484
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 405088
+addi x28, x28, 3481
+lui x30, 16
+addi x30, x30, 3481
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 49172
+addi x28, x28, 3042
+lui x30, 4
+addi x30, x30, 3042
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 23258
+addi x28, x28, 1588
+lui x30, 10
+addi x30, x30, 1588
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 184455
+addi x28, x28, 2543
+lui x30, 7
+addi x30, x30, 2543
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 290506
+addi x28, x28, 1834
+lui x30, 10
+addi x30, x30, 1834
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 173244
+addi x28, x28, 3040
+lui x30, 12
+addi x30, x30, 3040
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 254237
+addi x28, x28, 1879
+lui x30, 13
+addi x30, x30, 1879
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 219125
+addi x28, x28, 2665
+lui x30, 5
+addi x30, x30, 2665
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 382467
+addi x28, x28, 1296
+lui x30, 3
+addi x30, x30, 1296
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 9729
+addi x28, x28, 2453
+lui x30, 1
+addi x30, x30, 2453
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 9185
+addi x28, x28, 1686
+lui x30, 1
+addi x30, x30, 1686
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 107052
+addi x28, x28, 382
+lui x30, 12
+addi x30, x30, 382
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 438972
+addi x28, x28, 2242
+lui x30, 12
+addi x30, x30, 2242
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 77103
+addi x28, x28, 3813
+lui x30, 15
+addi x30, x30, 3813
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 445483
+addi x28, x28, 1642
+lui x30, 11
+addi x30, x30, 1642
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 396500
+addi x28, x28, 901
+lui x30, 4
+addi x30, x30, 901
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 363494
+addi x28, x28, 1741
+lui x30, 6
+addi x30, x30, 1741
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 210410
+addi x28, x28, 3725
+lui x30, 10
+addi x30, x30, 3725
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 271810
+addi x28, x28, 2203
+lui x30, 2
+addi x30, x30, 2203
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 201348
+addi x28, x28, 1082
+lui x30, 4
+addi x30, x30, 1082
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 309336
+addi x28, x28, 670
+lui x30, 8
+addi x30, x30, 670
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 407044
+addi x28, x28, 2604
+lui x30, 4
+addi x30, x30, 2604
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 436764
+addi x28, x28, 894
+lui x30, 12
+addi x30, x30, 894
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 212818
+addi x28, x28, 2267
+lui x30, 2
+addi x30, x30, 2267
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 171373
+addi x28, x28, 3993
+lui x30, 13
+addi x30, x30, 3993
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 389959
+addi x28, x28, 4032
+lui x30, 7
+addi x30, x30, 4032
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 276169
+addi x28, x28, 1338
+lui x30, 9
+addi x30, x30, 1338
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 8097
+addi x28, x28, 145
+lui x30, 1
+addi x30, x30, 145
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 492767
+addi x28, x28, 200
+lui x30, 15
+addi x30, x30, 200
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 444346
+addi x28, x28, 1132
+lui x30, 10
+addi x30, x30, 1132
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 502843
+addi x28, x28, 2629
+lui x30, 11
+addi x30, x30, 2629
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 373567
+addi x28, x28, 3681
+lui x30, 15
+addi x30, x30, 3681
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 493518
+addi x28, x28, 79
+lui x30, 14
+addi x30, x30, 79
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 1813
+addi x28, x28, 121
+lui x30, 5
+addi x30, x30, 121
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 33734
+addi x28, x28, 2129
+lui x30, 6
+addi x30, x30, 2129
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 259736
+addi x28, x28, 1913
+lui x30, 8
+addi x30, x30, 1913
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 175057
+addi x28, x28, 3162
+lui x30, 1
+addi x30, x30, 3162
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 287971
+addi x28, x28, 4008
+lui x30, 3
+addi x30, x30, 4008
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 478861
+addi x28, x28, 483
+lui x30, 13
+addi x30, x30, 483
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 33236
+addi x28, x28, 362
+lui x30, 4
+addi x30, x30, 362
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 297700
+addi x28, x28, 2366
+lui x30, 4
+addi x30, x30, 2366
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 488047
+addi x28, x28, 2169
+lui x30, 15
+addi x30, x30, 2169
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 140288
+addi x28, x28, 744
+lui x30, 0
+addi x30, x30, 744
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 212383
+addi x28, x28, 512
+lui x30, 15
+addi x30, x30, 512
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 40861
+addi x28, x28, 1886
+lui x30, 13
+addi x30, x30, 1886
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 61484
+addi x28, x28, 2386
+lui x30, 12
+addi x30, x30, 2386
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 84595
+addi x28, x28, 1413
+lui x30, 3
+addi x30, x30, 1413
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 404356
+addi x28, x28, 3627
+lui x30, 4
+addi x30, x30, 3627
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 271893
+addi x28, x28, 2015
+lui x30, 5
+addi x30, x30, 2015
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 356405
+addi x28, x28, 3616
+lui x30, 5
+addi x30, x30, 3616
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 81416
+addi x28, x28, 614
+lui x30, 8
+addi x30, x30, 614
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 56942
+addi x28, x28, 2685
+lui x30, 14
+addi x30, x30, 2685
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 239161
+addi x28, x28, 2125
+lui x30, 9
+addi x30, x30, 2125
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 518180
+addi x28, x28, 1508
+lui x30, 4
+addi x30, x30, 1508
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 269759
+addi x28, x28, 856
+lui x30, 15
+addi x30, x30, 856
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 410533
+addi x28, x28, 2022
+lui x30, 5
+addi x30, x30, 2022
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 383851
+addi x28, x28, 1444
+lui x30, 11
+addi x30, x30, 1444
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 21641
+addi x28, x28, 2194
+lui x30, 9
+addi x30, x30, 2194
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 418631
+addi x28, x28, 2167
+lui x30, 7
+addi x30, x30, 2167
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 352330
+addi x28, x28, 1645
+lui x30, 10
+addi x30, x30, 1645
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 465987
+addi x28, x28, 3327
+lui x30, 3
+addi x30, x30, 3327
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 397185
+addi x28, x28, 701
+lui x30, 1
+addi x30, x30, 701
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 201609
+addi x28, x28, 1230
+lui x30, 9
+addi x30, x30, 1230
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 435217
+addi x28, x28, 3406
+lui x30, 1
+addi x30, x30, 3406
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 398998
+addi x28, x28, 822
+lui x30, 6
+addi x30, x30, 822
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 235343
+addi x28, x28, 3359
+lui x30, 15
+addi x30, x30, 3359
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+lui x28, 170665
+addi x28, x28, 1223
+lui x30, 9
+addi x30, x30, 1223
+
+zext.h x5, x28
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+
+QUIT:
+hcf

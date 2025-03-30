@@ -1,0 +1,69 @@
+2024.07.28 17:04:59 INFO  Started: Metals version 1.3.4 in folders '/home/user/projects/lab04' for client Visual Studio Code 1.91.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@22008fef]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@8e814ee]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@22008fef]
+2024.07.28 17:05:00 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.07.28 17:05:10 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:11 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:13 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:14 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:14 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:16 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:17 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:17 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:18 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:18 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:35 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.07.28 17:05:36 INFO  copying runtime jar...[0m
+2024.07.28 17:05:41 INFO  [info] welcome to sbt 1.9.9 (Eclipse Adoptium Java 17)[0m
+2024.07.28 17:05:42 INFO  [info] loading settings for project lab04-build-build from metals.sbt ...[0m
+2024.07.28 17:05:42 INFO  [info] loading project definition from /home/user/projects/lab04/project/project[0m
+2024.07.28 17:05:46 INFO  [info] loading settings for project lab04-build from metals.sbt ...[0m
+2024.07.28 17:05:46 INFO  [info] loading project definition from /home/user/projects/lab04/project[0m
+2024.07.28 17:05:51 INFO  [success] Generated .bloop/lab04-build.json[0m
+2024.07.28 17:05:51 INFO  [success] Total time: 5 s, completed Jul 28, 2024, 5:05:51 PM[0m
+2024.07.28 17:05:53 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:54 INFO  [info] loading settings for project lab04 from build.sbt ...[0m
+2024.07.28 17:05:54 INFO  [info] set current project to acal_lab04 (in build file:/home/user/projects/lab04/)[0m
+2024.07.28 17:05:54 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:54 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:55 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:05:56 INFO  [success] Generated .bloop/lab04.json[0m
+2024.07.28 17:05:56 INFO  [success] Generated .bloop/lab04-test.json[0m
+2024.07.28 17:05:56 INFO  [success] Total time: 2 s, completed Jul 28, 2024, 5:05:56 PM[0m
+2024.07.28 17:05:57 INFO  time: ran 'sbt bloopInstall' in 21s[0m
+2024.07.28 17:05:57 INFO  Attempting to connect to the build server...[0m
+2024.07.28 17:05:57 INFO  Setting up current java home /home/user/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35 in /home/user/.bloop/bloop.json[0m
+2024.07.28 17:06:02 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:06:02 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:06:02 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:06:04 INFO  no build target found for /home/user/projects/lab04/src/main/scala/acal_lab04/Lab/FullAdder.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.28 17:06:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/user/projects/lab04/.metals/bsp.trace.json or /home/user/.cache/metals/bsp.trace.json[0m
+2024.07.28 17:06:12 INFO  Attempting to connect to the build server...[0m
+2024.07.28 17:06:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/user/projects/lab04/project/.metals/bsp.trace.json or /home/user/.cache/metals/bsp.trace.json[0m
+2024.07.28 17:06:14 INFO  time: Connected to build server in 17s[0m
+2024.07.28 17:06:14 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.07.28 17:06:14 INFO  time: Imported build in 0.16s[0m
+2024.07.28 17:06:14 INFO  running doctor check[0m
+2024.07.28 17:06:14 INFO  java targets: lab04-build, lab04, lab04-test[0m
+2024.07.28 17:06:21 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.07.28 17:06:21 WARN  resetting database: Some(/home/user/.metals/metals.h2.db)[0m
+2024.07.28 17:06:21 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.07.28 17:06:21 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.07.28 17:06:30 INFO  time: indexed workspace in 16s[0m
+2024.07.28 17:06:31 INFO  compiling lab04 (16 scala sources)[0m
+2024.07.28 17:06:45 INFO  compiling lab04-test (11 scala sources)[0m
+2024.07.28 17:06:45 INFO  time: compiled lab04 in 13s[0m
+2024.07.28 17:06:46 INFO  time: compiled lab04-test in 1.38s[0m
+Jul 28, 2024 5:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59
+Jul 28, 2024 5:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+2024.07.28 17:07:14 INFO  compiling lab04-test (11 scala sources)[0m
+2024.07.28 17:07:15 INFO  time: compiled lab04-test in 1.18s[0m
+2024.07.28 17:09:50 INFO  compiling lab04-test (11 scala sources)[0m
+2024.07.28 17:09:54 INFO  time: compiled lab04-test in 3.39s[0m
+2024.07.28 17:23:45 INFO  compiling lab04-test (1 scala source)[0m
+2024.07.28 17:23:47 INFO  time: compiled lab04-test in 1.39s[0m

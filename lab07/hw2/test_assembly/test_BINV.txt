@@ -1,0 +1,1507 @@
+## RV32 Emulator Testing Assembly Code for BINV function
+
+main:
+
+##rs1:[1804289383] rs2:[846930886] rd:[1804289319]
+lui x28, 440500
+addi x28, x28, 1383
+lui x29, 206770
+addi x29, x29, 966
+lui x30, 440500
+addi x30, x30, 1319
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1681692777] rs2:[1714636915] rd:[1681168489]
+lui x28, 410570
+addi x28, x28, 2153
+lui x29, 418613
+addi x29, x29, 2163
+lui x30, 410442
+addi x30, x30, 2153
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1957747793] rs2:[424238335] rd:[4105231441]
+lui x28, 477966
+addi x28, x28, 3153
+lui x29, 103574
+addi x29, x29, 3327
+lui x30, 1002254
+addi x30, x30, 3153
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[719885386] rs2:[1649760492] rd:[719881290]
+lui x28, 175753
+addi x28, x28, 1098
+lui x29, 402774
+addi x29, x29, 2284
+lui x30, 175752
+addi x30, x30, 1098
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[596516649] rs2:[1189641421] rd:[596524841]
+lui x28, 145634
+addi x28, x28, 3881
+lui x29, 290440
+addi x29, x29, 3277
+lui x30, 145636
+addi x30, x30, 3881
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1025202362] rs2:[1350490027] rd:[1025200314]
+lui x28, 250294
+addi x28, x28, 2234
+lui x29, 329709
+addi x29, x29, 1963
+lui x30, 250293
+addi x30, x30, 186
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[783368690] rs2:[1102520059] rd:[649150962]
+lui x28, 191252
+addi x28, x28, 498
+lui x29, 269170
+addi x29, x29, 3835
+lui x30, 158484
+addi x30, x30, 498
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[2044897763] rs2:[1967513926] rd:[2044897699]
+lui x28, 499243
+addi x28, x28, 2531
+lui x29, 480350
+addi x29, x29, 326
+lui x30, 499243
+addi x30, x30, 2467
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1365180540] rs2:[1540383426] rd:[1365180536]
+lui x28, 333296
+addi x28, x28, 124
+lui x29, 376070
+addi x29, x29, 706
+lui x30, 333296
+addi x30, x30, 120
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[304089172] rs2:[1303455736] rd:[320866388]
+lui x28, 74241
+addi x28, x28, 2132
+lui x29, 318226
+addi x29, x29, 2040
+lui x30, 78337
+addi x30, x30, 2132
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[35005211] rs2:[521595368] rd:[35004955]
+lui x28, 8546
+addi x28, x28, 795
+lui x29, 127343
+addi x29, x29, 2536
+lui x30, 8546
+addi x30, x30, 539
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[294702567] rs2:[1726956429] rd:[294710759]
+lui x28, 71949
+addi x28, x28, 3559
+lui x29, 421620
+addi x29, x29, 909
+lui x30, 71951
+addi x30, x30, 3559
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[336465782] rs2:[861021530] rd:[269356918]
+lui x28, 82145
+addi x28, x28, 3958
+lui x29, 210210
+addi x29, x29, 1370
+lui x30, 65761
+addi x30, x30, 3958
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[278722862] rs2:[233665123] rd:[278722854]
+lui x28, 68048
+addi x28, x28, 2350
+lui x29, 57047
+addi x29, x29, 611
+lui x30, 68048
+addi x30, x30, 2342
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[2145174067] rs2:[468703135] rd:[4292657715]
+lui x28, 523724
+addi x28, x28, 563
+lui x29, 114429
+addi x29, x29, 1951
+lui x30, 1048012
+addi x30, x30, 563
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1101513929] rs2:[1801979802] rd:[1168622793]
+lui x28, 268924
+addi x28, x28, 1225
+lui x29, 439936
+addi x29, x29, 1946
+lui x30, 285308
+addi x30, x30, 1225
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1315634022] rs2:[635723058] rd:[1315896166]
+lui x28, 321200
+addi x28, x28, 2918
+lui x29, 155206
+addi x29, x29, 3378
+lui x30, 321264
+addi x30, x30, 2918
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1369133069] rs2:[1125898167] rd:[1360744461]
+lui x28, 334261
+addi x28, x28, 13
+lui x29, 274877
+addi x29, x29, 1975
+lui x30, 332213
+addi x30, x30, 13
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1059961393] rs2:[2089018456] rd:[1043184177]
+lui x28, 258780
+addi x28, x28, 2609
+lui x29, 510014
+addi x29, x29, 1112
+lui x30, 254684
+addi x30, x30, 2609
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[628175011] rs2:[1656478042] rd:[561066147]
+lui x28, 153363
+addi x28, x28, 163
+lui x29, 404414
+addi x29, x29, 2394
+lui x30, 136979
+addi x30, x30, 163
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1131176229] rs2:[1653377373] rd:[1668047141]
+lui x28, 276166
+addi x28, x28, 293
+lui x29, 403657
+addi x29, x29, 2397
+lui x30, 407238
+addi x30, x30, 293
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[859484421] rs2:[1914544919] rd:[867873029]
+lui x28, 209835
+addi x28, x28, 261
+lui x29, 467418
+addi x29, x29, 791
+lui x30, 211883
+addi x30, x30, 261
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[608413784] rs2:[756898537] rd:[608414296]
+lui x28, 148539
+addi x28, x28, 2136
+lui x29, 184790
+addi x29, x29, 2793
+lui x30, 148539
+addi x30, x30, 2648
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1734575198] rs2:[1973594324] rd:[1735623774]
+lui x28, 423480
+addi x28, x28, 1118
+lui x29, 481835
+addi x29, x29, 2260
+lui x30, 423736
+addi x30, x30, 1118
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[149798315] rs2:[2038664370] rd:[149536171]
+lui x28, 36572
+addi x28, x28, 3499
+lui x29, 497721
+addi x29, x29, 3250
+lui x30, 36508
+addi x30, x30, 3499
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1129566413] rs2:[184803526] rd:[1129566349]
+lui x28, 275773
+addi x28, x28, 205
+lui x29, 45118
+addi x29, x29, 198
+lui x30, 275773
+addi x30, x30, 141
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[412776091] rs2:[1424268980] rd:[411727515]
+lui x28, 100775
+addi x28, x28, 1691
+lui x29, 347722
+addi x29, x29, 3764
+lui x30, 100519
+addi x30, x30, 1691
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1911759956] rs2:[749241873] rd:[1911628884]
+lui x28, 466738
+addi x28, x28, 1108
+lui x29, 182920
+addi x29, x29, 1553
+lui x30, 466706
+addi x30, x30, 1108
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[137806862] rs2:[42999170] rd:[137806858]
+lui x28, 33644
+addi x28, x28, 1038
+lui x29, 10498
+addi x29, x29, 3458
+lui x30, 33644
+addi x30, x30, 1034
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[982906996] rs2:[135497281] rd:[982906998]
+lui x28, 239968
+addi x28, x28, 2164
+lui x29, 33080
+addi x29, x29, 1601
+lui x30, 239968
+addi x30, x30, 2166
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[511702305] rs2:[2084420925] rd:[1048573217]
+lui x28, 124927
+addi x28, x28, 1313
+lui x29, 508892
+addi x29, x29, 3389
+lui x30, 255999
+addi x30, x30, 1313
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1937477084] rs2:[1827336327] rd:[1937476956]
+lui x28, 473017
+addi x28, x28, 3548
+lui x29, 446127
+addi x29, x29, 135
+lui x30, 473017
+addi x30, x30, 3420
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[572660336] rs2:[1159126505] rd:[572659824]
+lui x28, 139810
+addi x28, x28, 2672
+lui x29, 282990
+addi x29, x29, 3561
+lui x30, 139810
+addi x30, x30, 2160
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[805750846] rs2:[1632621729] rd:[805750844]
+lui x28, 196717
+addi x28, x28, 2110
+lui x29, 398589
+addi x29, x29, 1185
+lui x30, 196717
+addi x30, x30, 2108
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1100661313] rs2:[1433925857] rd:[1100661315]
+lui x28, 268716
+addi x28, x28, 577
+lui x29, 350080
+addi x29, x29, 2273
+lui x30, 268716
+addi x30, x30, 579
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1141616124] rs2:[84353895] rd:[1141615996]
+lui x28, 278715
+addi x28, x28, 3580
+lui x29, 20594
+addi x29, x29, 871
+lui x30, 278715
+addi x30, x30, 3452
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[939819582] rs2:[2001100545] rd:[939819580]
+lui x28, 229448
+addi x28, x28, 574
+lui x29, 488550
+addi x29, x29, 3841
+lui x30, 229448
+addi x30, x30, 572
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1998898814] rs2:[1548233367] rd:[2007287422]
+lui x28, 488012
+addi x28, x28, 1662
+lui x29, 377987
+addi x29, x29, 2711
+lui x30, 490060
+addi x30, x30, 1662
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[610515434] rs2:[1585990364] rd:[878950890]
+lui x28, 149052
+addi x28, x28, 2538
+lui x29, 387205
+addi x29, x29, 2780
+lui x30, 214588
+addi x30, x30, 2538
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1374344043] rs2:[760313750] rd:[1370149739]
+lui x28, 335533
+addi x28, x28, 875
+lui x29, 185623
+addi x29, x29, 1942
+lui x30, 334509
+addi x30, x30, 875
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1477171087] rs2:[356426808] rd:[1493948303]
+lui x28, 360637
+addi x28, x28, 1935
+lui x29, 87018
+addi x29, x29, 1080
+lui x30, 364733
+addi x30, x30, 1935
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[945117276] rs2:[1889947178] rd:[945118300]
+lui x28, 230742
+addi x28, x28, 2140
+lui x29, 461413
+addi x29, x29, 3626
+lui x30, 230742
+addi x30, x30, 3164
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1780695788] rs2:[709393584] rd:[1780630252]
+lui x28, 434740
+addi x28, x28, 748
+lui x29, 173192
+addi x29, x29, 3248
+lui x30, 434724
+addi x30, x30, 748
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[491705403] rs2:[1918502651] rd:[357487675]
+lui x28, 120045
+addi x28, x28, 1083
+lui x29, 468384
+addi x29, x29, 1787
+lui x30, 87277
+addi x30, x30, 1083
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[752392754] rs2:[1474612399] rd:[752359986]
+lui x28, 183690
+addi x28, x28, 2610
+lui x29, 360013
+addi x29, x29, 3247
+lui x30, 183682
+addi x30, x30, 2610
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[2053999932] rs2:[1264095060] rd:[2055048508]
+lui x28, 501465
+addi x28, x28, 3388
+lui x29, 308617
+addi x29, x29, 3924
+lui x30, 501721
+addi x30, x30, 3388
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1411549676] rs2:[1843993368] rd:[1428326892]
+lui x28, 344617
+addi x28, x28, 2540
+lui x29, 450194
+addi x29, x29, 2840
+lui x30, 348713
+addi x30, x30, 2540
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[943947739] rs2:[1984210012] rd:[675512283]
+lui x28, 230456
+addi x28, x28, 4059
+lui x29, 484426
+addi x29, x29, 1116
+lui x30, 164920
+addi x30, x30, 4059
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[855636226] rs2:[1749698586] rd:[922745090]
+lui x28, 208896
+addi x28, x28, 2306
+lui x29, 427173
+addi x29, x29, 2074
+lui x30, 225280
+addi x30, x30, 2306
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1469348094] rs2:[1956297539] rd:[1469348086]
+lui x28, 358728
+addi x28, x28, 2302
+lui x29, 477612
+addi x29, x29, 2883
+lui x30, 358728
+addi x30, x30, 2294
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1036140795] rs2:[463480570] rd:[969031931]
+lui x28, 252964
+addi x28, x28, 251
+lui x29, 113154
+addi x29, x29, 1786
+lui x30, 236580
+addi x30, x30, 251
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[2040651434] rs2:[1975960378] rd:[2107760298]
+lui x28, 498206
+addi x28, x28, 3754
+lui x29, 482412
+addi x29, x29, 826
+lui x30, 514590
+addi x30, x30, 3754
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[317097467] rs2:[1892066601] rd:[317097979]
+lui x28, 77416
+addi x28, x28, 1531
+lui x29, 461930
+addi x29, x29, 1321
+lui x30, 77416
+addi x30, x30, 2043
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1376710097] rs2:[927612902] rd:[1376710033]
+lui x28, 336111
+addi x28, x28, 3537
+lui x29, 226468
+addi x29, x29, 4070
+lui x30, 336111
+addi x30, x30, 3473
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1330573317] rs2:[603570492] rd:[1599008773]
+lui x28, 324847
+addi x28, x28, 5
+lui x29, 147356
+addi x29, x29, 316
+lui x30, 390383
+addi x30, x30, 5
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1687926652] rs2:[660260756] rd:[1686878076]
+lui x28, 412091
+addi x28, x28, 1916
+lui x29, 161196
+addi x29, x29, 1940
+lui x30, 411835
+addi x30, x30, 1916
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[959997301] rs2:[485560280] rd:[943220085]
+lui x28, 234374
+addi x28, x28, 1397
+lui x29, 118545
+addi x29, x29, 4056
+lui x30, 230278
+addi x30, x30, 1397
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[402724286] rs2:[593209441] rd:[402724284]
+lui x28, 98321
+addi x28, x28, 1470
+lui x29, 144827
+addi x29, x29, 2145
+lui x30, 98321
+addi x30, x30, 1468
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1194953865] rs2:[894429689] rd:[1161399433]
+lui x28, 291737
+addi x28, x28, 3209
+lui x29, 218367
+addi x29, x29, 2553
+lui x30, 283545
+addi x30, x30, 3209
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[364228444] rs2:[1947346619] rd:[498446172]
+lui x28, 88923
+addi x28, x28, 3932
+lui x29, 475426
+addi x29, x29, 1723
+lui x30, 121691
+addi x30, x30, 3932
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[221558440] rs2:[270744729] rd:[255112872]
+lui x28, 54091
+addi x28, x28, 1704
+lui x29, 66100
+addi x29, x29, 3225
+lui x30, 62283
+addi x30, x30, 1704
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1063958031] rs2:[1633108117] rd:[1061860879]
+lui x28, 259755
+addi x28, x28, 1551
+lui x29, 398708
+addi x29, x29, 149
+lui x30, 259243
+addi x30, x30, 1551
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[2114738097] rs2:[2007905771] rd:[2114740145]
+lui x28, 516293
+addi x28, x28, 1969
+lui x29, 490211
+addi x29, x29, 1515
+lui x30, 516294
+addi x30, x30, 4017
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1469834481] rs2:[822890675] rd:[1469310193]
+lui x28, 358846
+addi x28, x28, 1265
+lui x29, 200901
+addi x29, x29, 179
+lui x30, 358718
+addi x30, x30, 1265
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1610120709] rs2:[791698927] rd:[1610153477]
+lui x28, 393096
+addi x28, x28, 3589
+lui x29, 193286
+addi x29, x29, 3567
+lui x30, 393104
+addi x30, x30, 3589
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[631704567] rs2:[498777856] rd:[631704566]
+lui x28, 154225
+addi x28, x28, 3063
+lui x29, 121772
+addi x29, x29, 3840
+lui x30, 154225
+addi x30, x30, 3062
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1255179497] rs2:[524872353] rd:[1255179499]
+lui x28, 306440
+addi x28, x28, 1257
+lui x29, 128143
+addi x29, x29, 2721
+lui x30, 306440
+addi x30, x30, 1259
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[327254586] rs2:[1572276965] rd:[327254554]
+lui x28, 79896
+addi x28, x28, 570
+lui x29, 383857
+addi x29, x29, 2789
+lui x30, 79896
+addi x30, x30, 538
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[269455306] rs2:[1703964683] rd:[269453258]
+lui x28, 65785
+addi x28, x28, 4042
+lui x29, 416007
+addi x29, x29, 11
+lui x30, 65784
+addi x30, x30, 1994
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[352406219] rs2:[1600028624] rd:[352340683]
+lui x28, 86037
+addi x28, x28, 2763
+lui x29, 390632
+addi x29, x29, 4048
+lui x30, 86021
+addi x30, x30, 2763
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[160051528] rs2:[2040332871] rd:[160051656]
+lui x28, 39075
+addi x28, x28, 328
+lui x29, 498128
+addi x29, x29, 583
+lui x30, 39075
+addi x30, x30, 456
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[112805732] rs2:[1120048829] rd:[649676644]
+lui x28, 27540
+addi x28, x28, 1892
+lui x29, 273449
+addi x29, x29, 1725
+lui x30, 158612
+addi x30, x30, 1892
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[378409503] rs2:[515530019] rd:[378409495]
+lui x28, 92385
+addi x28, x28, 543
+lui x29, 125862
+addi x29, x29, 3363
+lui x30, 92385
+addi x30, x30, 535
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1713258270] rs2:[1573363368] rd:[1713258014]
+lui x28, 418276
+addi x28, x28, 3870
+lui x29, 384122
+addi x29, x29, 3752
+lui x30, 418276
+addi x30, x30, 3614
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1409959708] rs2:[2077486715] rd:[1544177436]
+lui x28, 344228
+addi x28, x28, 1820
+lui x29, 507199
+addi x29, x29, 3707
+lui x30, 376996
+addi x30, x30, 1820
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1373226340] rs2:[1631518149] rd:[1373226308]
+lui x28, 335260
+addi x28, x28, 1380
+lui x29, 398320
+addi x29, x29, 3525
+lui x30, 335260
+addi x30, x30, 1348
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[200747796] rs2:[289700723] rd:[201272084]
+lui x28, 49011
+addi x28, x28, 2836
+lui x29, 70728
+addi x29, x29, 2931
+lui x30, 49139
+addi x30, x30, 2836
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1117142618] rs2:[168002245] rd:[1117142650]
+lui x28, 272740
+addi x28, x28, 3674
+lui x29, 41016
+addi x29, x29, 709
+lui x30, 272740
+addi x30, x30, 3706
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[150122846] rs2:[439493451] rd:[150124894]
+lui x28, 36651
+addi x28, x28, 350
+lui x29, 107298
+addi x29, x29, 843
+lui x30, 36652
+addi x30, x30, 2398
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[990892921] rs2:[1760243555] rd:[990892913]
+lui x28, 241917
+addi x28, x28, 889
+lui x29, 429747
+addi x29, x29, 3939
+lui x30, 241917
+addi x30, x30, 881
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1231192379] rs2:[1622597488] rd:[1231257915]
+lui x28, 300584
+addi x28, x28, 315
+lui x29, 396142
+addi x29, x29, 3952
+lui x30, 300600
+addi x30, x30, 315
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[111537764] rs2:[338888228] rd:[111537780]
+lui x28, 27231
+addi x28, x28, 3684
+lui x29, 82736
+addi x29, x29, 1572
+lui x30, 27231
+addi x30, x30, 3700
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[2147469841] rs2:[438792350] rd:[1073728017]
+lui x28, 524285
+addi x28, x28, 2577
+lui x29, 107127
+addi x29, x29, 158
+lui x30, 262141
+addi x30, x30, 2577
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1911165193] rs2:[269441500] rd:[1642729737]
+lui x28, 466593
+addi x28, x28, 265
+lui x29, 65782
+addi x29, x29, 2524
+lui x30, 401057
+addi x30, x30, 265
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[2142757034] rs2:[116087764] rd:[2141708458]
+lui x28, 523134
+addi x28, x28, 170
+lui x29, 28342
+addi x29, x29, 3028
+lui x30, 522878
+addi x30, x30, 170
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1869470124] rs2:[155324914] rd:[1869207980]
+lui x28, 456414
+addi x28, x28, 2476
+lui x29, 37921
+addi x29, x29, 498
+lui x30, 456350
+addi x30, x30, 2476
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[8936987] rs2:[1982275856] rd:[9002523]
+lui x28, 2182
+addi x28, x28, 3611
+lui x29, 483954
+addi x29, x29, 272
+lui x30, 2198
+addi x30, x30, 3611
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1275373743] rs2:[387346491] rd:[1141156015]
+lui x28, 311371
+addi x28, x28, 2223
+lui x29, 94567
+addi x29, x29, 59
+lui x30, 278603
+addi x30, x30, 2223
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[350322227] rs2:[841148365] rd:[350314035]
+lui x28, 85528
+addi x28, x28, 3635
+lui x29, 205358
+addi x29, x29, 1997
+lui x30, 85526
+addi x30, x30, 3635
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1960709859] rs2:[1760281936] rd:[1960775395]
+lui x28, 478689
+addi x28, x28, 3811
+lui x29, 429756
+addi x29, x29, 1360
+lui x30, 478705
+addi x30, x30, 3811
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[771151432] rs2:[1186452551] rd:[771151560]
+lui x28, 188269
+addi x28, x28, 1608
+lui x29, 289661
+addi x29, x29, 1095
+lui x30, 188269
+addi x30, x30, 1736
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1244316437] rs2:[971899228] rd:[1512751893]
+lui x28, 303788
+addi x28, x28, 789
+lui x29, 237280
+addi x29, x29, 348
+lui x30, 369324
+addi x30, x30, 789
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1476153275] rs2:[213975407] rd:[1476186043]
+lui x28, 360389
+addi x28, x28, 4027
+lui x29, 52240
+addi x29, x29, 367
+lui x30, 360397
+addi x30, x30, 4027
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1139901474] rs2:[1626276121] rd:[1106347042]
+lui x28, 278296
+addi x28, x28, 1058
+lui x29, 397040
+addi x29, x29, 281
+lui x30, 270104
+addi x30, x30, 1058
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[653468858] rs2:[2130794395] rd:[787686586]
+lui x28, 159538
+addi x28, x28, 1210
+lui x29, 520213
+addi x29, x29, 1947
+lui x30, 192306
+addi x30, x30, 1210
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1239036029] rs2:[1884661237] rd:[1241133181]
+lui x28, 302499
+addi x28, x28, 125
+lui x29, 460122
+addi x29, x29, 1525
+lui x30, 303011
+addi x30, x30, 125
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1605908235] rs2:[1350573793] rd:[1605908233]
+lui x28, 392067
+addi x28, x28, 1803
+lui x29, 329730
+addi x29, x29, 3809
+lui x30, 392067
+addi x30, x30, 1801
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[76065818] rs2:[1605894428] rd:[344501274]
+lui x28, 18571
+addi x28, x28, 3098
+lui x29, 392064
+addi x29, x29, 284
+lui x30, 84107
+addi x30, x30, 3098
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1789366143] rs2:[1987231011] rd:[1789366135]
+lui x28, 436857
+addi x28, x28, 3967
+lui x29, 485164
+addi x29, x29, 3363
+lui x30, 436857
+addi x30, x30, 3959
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+##rs1:[1875335928] rs2:[1784639529] rd:[1875335416]
+lui x28, 457846
+addi x28, x28, 2808
+lui x29, 435703
+addi x29, x29, 41
+lui x30, 457846
+addi x30, x30, 2296
+
+binv x5, x28, x29
+
+addi x7, x7, 1
+bne x5, x30, QUIT
+
+
+
+
+QUIT:
+hcf

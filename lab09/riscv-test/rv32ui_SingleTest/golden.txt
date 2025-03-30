@@ -1,0 +1,37 @@
+add     x1 = 0x00000123, x2 = 0x00000246
+addi    x1 = 0x00000123
+and     x1 = 0x000007ff, x2 = 0x0000070f, x3 = 0x0000070f
+andi    x1 = 0x000007ff, x2 = 0x0000070f
+auipc   x1 = 0xfffff008
+beq     x1 = 0x00000123, x2 = 0x00000123,x3 = 0x00000001
+bge     x1 = 0x00000010, x2 = 0xfffffff0,x3 = 0x00000001
+bgeu    x1 = 0xfffffff0, x2 = 0x00000010,x3 = 0x00000001
+blt     x1 = 0xfffffff0, x2 = 0x00000010,x3 = 0x00000001
+bltu    x1 = 0x00000010, x2 = 0xfffffff0,x3 = 0x00000001
+bne     x1 = 0xfffffff0, x2 = 0xffffffe0,x3 = 0x00000001
+jal     x1 = 0x0000001c, x3 = 0x00000001
+jalr    x1 = 0x0000001c, x3 = 0x00000001, x4 = 0x00000001
+lb      x1 = 0x00008000, x2 = 0xfffffff0
+lbu     x1 = 0x00008000, x2 = 0x000000f0
+lh      x1 = 0x00008000, x2 = 0xfffff00f
+lhu     x1 = 0x00008000, x2 = 0x0000f00f
+lw      x1 = 0x00008000, x2 = 0xff00ff00
+lui     x1 = 0x00008000
+or      x1 = 0x0000070f, x2 = 0x000000f0, x3 = 0x000007ff
+ori     x1 = 0x0000070f, x3 = 0x000007ff
+sb      x1 = 0x00008000, x2 = 0xdeadbeef, x3 = 0x000000ef
+sh      x1 = 0x00008000, x2 = 0xdeadbeef, x3 = 0x0000beef
+sw      x1 = 0x00008000, x2 = 0xdeadbeef, x3 = 0xdeadbeef
+sll     x1 = 0x000007ff, x2 = 0x00000004, x3 = 0x00007ff0
+slli    x1 = 0x000007ff, x3 = 0x00007ff0
+slt     x1 = 0xfffffff0, x2 = 0x00000010, x3 = 0x00000001
+slti    x1 = 0xfffffff0, x3 = 0x00000001
+sltiu   x1 = 0x00000010, x3 = 0x00000001
+sltu    x1 = 0x00000010, x2 = 0xfffffff0, x3 = 0x00000001
+sra     x1 = 0xffffff12, x2 = 0x00000004, x3 = 0xfffffff1
+srai    x1 = 0xffffff12, x3 = 0xfffffff1
+srl     x1 = 0xffffff12, x2 = 0x00000004, x3 = 0x0ffffff1
+srli    x1 = 0xffffff12, x3 = 0x0ffffff1
+sub     x1 = 0x00000123, x2 = 0x00000124, x3 = 0xffffffff
+xor     x1 = 0xffff0000, x2 = 0xffffffff, x3 = 0x0000ffff
+xori    x1 = 0xffff0000, x3 = 0x0000ffff 
