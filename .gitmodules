@@ -1,0 +1,27 @@
+[submodule "AIAS-lab02"]
+	path = AIAS-lab02
+	url = git@github.com:Charlee0207/AIAS-lab02.git
+[submodule "AIAS-lab05"]
+	path = AIAS-lab05
+	url = git@github.com:Charlee0207/AIAS-lab05.git
+[submodule "AIAS-lab06"]
+	path = AIAS-lab06
+	url = git@github.com:Charlee0207/AIAS-lab06.git
+[submodule "AIAS-lab07"]
+	path = AIAS-lab07
+	url = git@github.com:Charlee0207/AIAS-lab07.git
+[submodule "AIAS-lab07-group"]
+	path = AIAS-lab07-group
+	url = git@github.com:Charlee0207/AIAS-lab07-group.git
+[submodule "AIAS-lab09"]
+	path = AIAS-lab09
+	url = git@github.com:Charlee0207/AIAS-lab09.git
+[submodule "AIAS-lab09-group"]
+	path = AIAS-lab09-group
+	url = git@github.com:Charlee0207/AIAS-lab09-group.git
+[submodule "AIAS-lab10"]
+	path = AIAS-lab10
+	url = git@github.com:Charlee0207/AIAS-lab10.git
+[submodule "AIAS-lab11"]
+	path = AIAS-lab11
+	url = git@github.com:Charlee0207/AIAS-lab11.git
