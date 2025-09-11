@@ -1,6 +1,9 @@
 [submodule "AIAS-lab02"]
 	path = AIAS-lab02
 	url = git@github.com:Charlee0207/AIAS-lab02.git
+[submodule "AIAS-lab04"]
+	path = AIAS-lab04
+	url = git@github.com:Charlee0207/AIAS-lab04.git
 [submodule "AIAS-lab05"]
 	path = AIAS-lab05
 	url = git@github.com:Charlee0207/AIAS-lab05.git
