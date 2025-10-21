@@ -28,3 +28,6 @@
 [submodule "AIAS-lab11"]
 	path = AIAS-lab11
 	url = git@github.com:Charlee0207/AIAS-lab11.git
+[submodule "AIAS-lab14"]
+	path = AIAS-lab14
+	url = https://github.com/Charlee0207/AIAS-lab14
