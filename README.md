@@ -93,3 +93,14 @@
 * HW 11-2 Performance Enhancement Using DMA
 * HW 11-3 Upgrade AXI Bus Design to Support Burst Model
 * HW 11-4 Performance Analysis and Comparison
+
+---
+## AIAS-lab14 Memory-Mapped Systolic-Array-Based AI Accelerator
+
+* Lab 14-1 Weight-Stationary Systolic Array
+* Lab 14-2 Memory-Mapped Accelerator for Matrix Multiplication
+
+* HW 14-1 Make accelerator move data by itself
+* HW 14-2 Make the AXI bus support more masters (Accelerator)
+* HW 14-3 Put Everything together to run a different dimension matrix multiplication
+* HW 14-4 Prepare software for the Conv2D operation and compare with the result in Lab 11
